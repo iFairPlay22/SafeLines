@@ -12,9 +12,7 @@
         class="ma-3"
       >
         <v-img :src="img" max-width="250px" max-height="200px" />
-        <v-card-title
-          class="indigo--text text--accent-4 d-flex justify-center ma-0 pa-0 pt-2"
-        >{{ name }}</v-card-title>
+        <v-card-title class="black--text d-flex justify-center ma-0 pa-0 pt-2">{{ name }}</v-card-title>
         <v-card-text class="text-center ma-0 pa-0 pb-1">{{ role }}</v-card-text>
         <v-card-actions>
           <v-spacer></v-spacer>
@@ -41,26 +39,26 @@ export default {
         {
           img: require("@/assets/team/jaillon.jpg"),
           name: "Thomas Jaillon",
-          role: "Engineer student at ESIEE PARIS",
+          role: "Engineering student at ESIEE PARIS",
           linkedin: "https://www.linkedin.com/in/thomas-jaillon-5244751a1"
         },
         {
           img: require("@/assets/team/sergent.jpeg"),
           name: "Pierre Sergent",
           role: "Business Student at ESSCA Paris",
-          linkedin: "https://www.linkedin.com/in/pierre-sergent-935358177/"
+          linkedin: "https://www.linkedin.com/in/pierre-sergent-935358177"
         },
         {
           img: require("@/assets/team/bouquet.jpeg"),
           name: "Ewen Bouquet",
-          role: "Engineer student at ESIEE PARIS",
+          role: "Engineering student at ESIEE PARIS",
           linkedin: "https://www.linkedin.com/in/ewen-bouquet/"
         },
         {
-          img: require("@/assets/logo2.png"),
+          img: require("@/assets/team/dao.jpg"),
           name: "Dao Jonathan",
-          role: "Engineer student at ESIEE PARIS",
-          linkedin: ""
+          role: "Engineering student at ESIEE PARIS",
+          linkedin: "https://www.linkedin.com/in/jonathan-dao-22a838174"
         },
         {
           img: require("@/assets/team/sautiere.jpg"),

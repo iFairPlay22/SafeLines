@@ -9,9 +9,9 @@
     hide-on-scroll
   >
     <v-btn v-for="({ title, icon, link }, i) in items" :key="i" @click="redirect(link)">
-      <span class="subtitle-1 indigo--text text--accent-4">{{ title }}</span>
+      <span class="subtitle-1 black--text">{{ title }}</span>
       <!-- black -->
-      <v-icon class="indigo--text text--accent-4">{{ icon }}</v-icon>
+      <v-icon class="black--text">{{ icon }}</v-icon>
       <!-- black -->
     </v-btn>
   </v-bottom-navigation>
@@ -24,7 +24,7 @@ export default {
     return {
       items: [
         {
-          title: "Facebook",
+          title: "Linkedin",
           icon: "mdi-linkedin",
           link: ""
         },

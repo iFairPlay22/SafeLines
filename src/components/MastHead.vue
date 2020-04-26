@@ -6,7 +6,7 @@
     </v-card>
     <div class="flex-grow-1"></div>
     <v-btn icon v-for="({ icon, link }, i) in icons" :key="i" @click="redirect(link)">
-      <v-icon class="indigo--text text--accent-4">{{ icon }}</v-icon>
+      <v-icon class="black--text">{{ icon }}</v-icon>
     </v-btn>
   </v-app-bar>
 </template>

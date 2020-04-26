@@ -14,8 +14,8 @@
           min-width="200px"
         >
           <v-img :src="img" max-width="200px" max-height="200px" />
-          <v-card-title class="indigo--text text--accent-4 d-flex justify-center">{{ title }}</v-card-title>
-          <v-card-text class="indigo--text text--accent-4 text-center body-1">{{ text }}</v-card-text>
+          <v-card-title class="black--text d-flex justify-center">{{ title }}</v-card-title>
+          <v-card-text class="text-center body-1">{{ text }}</v-card-text>
         </v-card>
       </v-card>
       <!--  -->
@@ -31,20 +31,20 @@ export default {
       how: [
         {
           img: require("@/assets/how/1.png"),
-          title: "Sign up on Safeline",
+          title: "Sign up on Safelines",
           text: ""
         },
         {
           img: require("@/assets/how/2.png"),
           title: "Find your favorite shops",
           text:
-            "A map will be available on Safeline to see which stores are around you."
+            "A map will be available on Safelines to see which stores are around you."
         },
         {
           img: require("@/assets/how/3.png"),
           title: "Get registered on a slot",
           text:
-            "Once you get registered on a slot Safeline will provide you a QR code guaranteeing your reservation."
+            "Once you get registered on a slot Safelines will provide you a QR code guaranteeing your reservation."
         },
         {
           img: require("@/assets/how/4.png"),
