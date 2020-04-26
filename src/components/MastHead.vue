@@ -19,7 +19,7 @@ export default {
       icons: [
         {
           icon: "mdi-linkedin",
-          link: ""
+          link: "https://www.linkedin.com/company/safelines"
         },
         {
           icon: "mdi-youtube",

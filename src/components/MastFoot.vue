@@ -26,7 +26,7 @@ export default {
         {
           title: "Linkedin",
           icon: "mdi-linkedin",
-          link: ""
+          link: "https://www.linkedin.com/company/safelines"
         },
         {
           title: "Youtube",
