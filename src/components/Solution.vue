@@ -2,7 +2,7 @@
   <div class="d-flex justify-space-around align-center">
     <v-card
       width="50%"
-      min-width="400px"
+      min-width="250px"
       flat
       color="transparent"
       class="d-flex flex-row align-center justify-center flex-wrap my-3"

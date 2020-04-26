@@ -11,7 +11,7 @@
           :key="i"
           class="d-flex flex-column justify-start align-center"
           max-width="20%"
-          min-width="200px"
+          min-width="250px"
         >
           <v-img :src="img" max-width="200px" max-height="200px" />
           <v-card-title class="black--text d-flex justify-center">{{ title }}</v-card-title>
