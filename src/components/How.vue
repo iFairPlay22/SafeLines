@@ -1,9 +1,13 @@
 <template>
   <div class="d-flex justify-space-around align-center">
     <v-card flat color="transparent" class="d-flex flex-column align-center justify-center my-3">
-      <v-card-title class="display-2 text-center mb-5">How it works?</v-card-title>
+      <v-card-title class="display-2 text-center mb-5 text-break">How it works?</v-card-title>
       <!--  -->
-      <v-card flat color="transparent" class="d-flex flex-row justify-space-around flex-wrap">
+      <v-card
+        flat
+        color="transparent"
+        class="d-flex flex-row justify-space-around align-start flex-wrap"
+      >
         <v-card
           flat
           color="transparent"
@@ -14,8 +18,8 @@
           min-width="250px"
         >
           <v-img :src="img" max-width="200px" max-height="200px" />
-          <v-card-title class="black--text d-flex justify-center">{{ title }}</v-card-title>
-          <v-card-text class="text-center body-1">{{ text }}</v-card-text>
+          <v-card-title class="black--text text-center text-break">{{ title }}</v-card-title>
+          <v-card-text class="text-center body-1 text-break">{{ text }}</v-card-text>
         </v-card>
       </v-card>
       <!--  -->

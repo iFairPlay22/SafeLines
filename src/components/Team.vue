@@ -12,8 +12,8 @@
         class="ma-3"
       >
         <v-img :src="img" max-width="250px" max-height="200px" />
-        <v-card-title class="black--text d-flex justify-center ma-0 pa-0 pt-2">{{ name }}</v-card-title>
-        <v-card-text class="text-center ma-0 pa-0 pb-1">{{ role }}</v-card-text>
+        <v-card-title class="black--text d-flex justify-center ma-0 pa-0 pt-2 text-break">{{ name }}</v-card-title>
+        <v-card-text class="text-center ma-0 pa-0 pb-1 text-break">{{ role }}</v-card-text>
         <v-card-actions>
           <v-spacer></v-spacer>
 
