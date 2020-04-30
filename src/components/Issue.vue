@@ -11,7 +11,6 @@
           >
             <v-card-title
               class="text-uppercase d-flex flex-row align-center justify-center text-break"
-              style="min-width: 200px;"
             >
               <div
                 class="headline text-break"
