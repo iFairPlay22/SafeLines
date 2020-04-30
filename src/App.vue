@@ -50,13 +50,11 @@ export default {
 
 .custom-title {
   font-size: 2.5rem !important;
-  background-color: red;
 }
 
-// h2 {
-//   font-size: 1rem !important;
-//   background-color: red;
-// }
+.custom-bar-title {
+  font-size: 2.5rem !important;
+}
 
 @media #{map-get(
     $display-breakpoints,
@@ -64,11 +62,10 @@ export default {
   )} {
   .custom-title {
     font-size: 2rem !important;
-    background-color: green;
   }
-  // h2 {
-  //   font-size: 1.5rem !important;
-  //   background-color: green;
-  // }
+
+  .custom-bar-title {
+    font-size: 2rem !important;
+  }
 }
 </style>

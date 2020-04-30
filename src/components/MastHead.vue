@@ -2,7 +2,7 @@
   <v-app-bar app color="white" light dense prominent scroll-threshold="0" hide-on-scroll>
     <v-card flat color="transparent" height="100%" class="d-flex justify-center align-center">
       <v-img height="60px" width="60px" src="@/assets/logo2.png"></v-img>
-      <v-card-title class="black--text custom-title text-break">SafeLines</v-card-title>
+      <v-card-title class="black--text custom-bar-title text-break">SafeLines</v-card-title>
     </v-card>
     <div class="flex-grow-1"></div>
     <v-btn icon v-for="({ icon, link }, i) in icons" :key="i" @click="redirect(link)">
