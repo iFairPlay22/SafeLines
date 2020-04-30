@@ -14,7 +14,7 @@
             >
               <div
                 class="headline text-break"
-                style="writing-mode: vertical-rl; transform: rotate(180deg); float: right; line-height: 1rem; max-width: 20px;"
+                style="writing-mode: vertical-rl; transform: rotate(180deg); float: right; line-height: 1rem;"
               >The</div>
               <div class="display-3 text-break">issue</div>
             </v-card-title>
