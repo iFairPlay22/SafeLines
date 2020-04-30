@@ -7,7 +7,7 @@
           color="transparent"
           class="d-flex flex-column align-center justify-center my-3"
         >
-          <v-card-title class="display-2 text-center mb-5 text-break">Presentation</v-card-title>
+          <v-card-title class="custom-title text-center mb-5 text-break">Presentation</v-card-title>
           <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;">
             <iframe
               frameborder="0"

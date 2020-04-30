@@ -1,7 +1,7 @@
 <template>
   <div class="d-flex justify-space-around align-center">
     <v-card flat color="transparent" class="d-flex flex-column align-center justify-center my-3">
-      <v-card-title class="display-2 text-center mb-5 text-break">How it works?</v-card-title>
+      <v-card-title class="custom-title text-center mb-5 text-break">How it works?</v-card-title>
       <!--  -->
       <v-card
         flat

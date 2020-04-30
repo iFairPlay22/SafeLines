@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-card flat color="transparent" class="d-flex align-center justify-center my-3">
-      <v-card-title class="display-2 text-center">Our team</v-card-title>
+      <v-card-title class="custom-title text-center">Our team</v-card-title>
     </v-card>
 
     <v-card flat color="transparent" class="d-flex flex-row justify-center flex-wrap">

@@ -9,10 +9,16 @@
             color="transparent"
             class="d-flex flex-row align-center justify-center flex-wrap my-3"
           >
-            <v-card-title class="display-2 text-center text-break">Our magic solution</v-card-title>
-            <v-card-text
-              class="body-1 text-justify text-break"
-            >Safelines is an application that aims to limit waiting lines and regulate the number of people in the store with registration. Store owners propose time slots with a number of customers they think they can welcome in all safety. As a result both the customer experience and work conditions will be improve with a true feeling of security. Safeline will make shopping easier and safer for everyone.</v-card-text>
+            <v-card-title class="custom-title text-center text-break">Our magic solution</v-card-title>
+            <v-card-text class="body-1 text-justify text-break">
+              Safelines is an application that aims to limit waiting lines and
+              regulate the number of people in the store with registration.
+              Store owners propose time slots with a number of customers they
+              think they can welcome in all safety. As a result both the
+              customer experience and work conditions will be improve with a
+              true feeling of security. Safeline will make shopping easier and
+              safer for everyone.
+            </v-card-text>
           </v-card>
         </v-col>
       </v-layout>
