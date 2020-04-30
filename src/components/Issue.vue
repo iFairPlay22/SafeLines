@@ -14,12 +14,12 @@
             >
               <div
                 class="headline text-break"
-                style="writing-mode: vertical-rl; transform: rotate(180deg); float: right;"
+                style="writing-mode: vertical-rl; transform: rotate(180deg); float: right; line-height: 1rem; max-width: 20px;"
               >The</div>
               <div class="display-3 text-break">issue</div>
             </v-card-title>
             <v-card-text
-              class="text-center body-1 text-break"
+              class="text-justify body-1 text-break"
             >With social distancing being set by the government in all public areas, massive waiting lines were formed in front of every first-necessity shops at peak times, which causes overcrowding in shops and increases the risk of contamination. How can we do to reduce those waiting lines, avoid overcrowding and at the same time reduce the risk of contamination for both customers and employees?</v-card-text>
           </v-card>
         </v-col>
